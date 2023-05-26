@@ -65,7 +65,9 @@ module.exports = () => {
 
       When all three plugins are configured this work is done.
     */
-
+      new HtmlWebpackPlugin({}),
+      new WebpackPwaManifest({}),
+      new InjectManifest({})
 
     ],
 

@@ -65,7 +65,10 @@ module.exports = () => {
 
       When all three plugins are configured this work is done.
     */
-      new HtmlWebpackPlugin({}),
+      new HtmlWebpackPlugin({
+        template: './index.html',
+        title: 'J.A.T.E'
+      }),
       new WebpackPwaManifest({}),
       new InjectManifest({})
 

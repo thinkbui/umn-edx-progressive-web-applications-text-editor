@@ -13,7 +13,7 @@ Exiting the app in the terminal can be done with *Ctrl + C*.
 ## NOTES
 This was meant to be a brief, high level study of PWA.  It was heavily suggested during instruction that PWAs have become rare due to increasingly reliable Internet connectivity as well as more convenient mobile applications, so most of the code was provided by the instructor save for sections involving the configuration of Webpack, installation of the companion, and database interaction.
 
-Although a couple of fixes to instructor-provided code had to be made to get the overall application to function properly, this was, again, meant to be a brief study and rigorous testing was not performed, so some glitches may be present such as needing to reload the browser for changes to be reflected on the web interface.
+Although a couple of fixes to [instructor-provided code](https://github.com/galmes2u/pwa-homework-helper) had to be made to get the overall application to function properly, this was, again, meant to be a brief study and rigorous testing was not performed, so some glitches may be present such as needing to reload the browser for changes to be reflected on the web interface.
 
 I also never got the overall application to function properly in local dev mode even though attempts were made, which offered clues to an issue with the instructor-provided code.
 
